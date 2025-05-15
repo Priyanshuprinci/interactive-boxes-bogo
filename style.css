@@ -1,0 +1,128 @@
+ * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #f85a8d;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .box.expanded {
+      border-color: #f85a8d;
+      box-shadow: 0 0 8px rgba(248, 90, 141, 0.3);
+    }
+
+    .popular .most-popular-tag {
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      background-color: #f85a8d;
+      color: white;
+      font-size: 10px;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+    }
+
+    .left input {
+      margin-right: 10px;
+    }
+
+    .discount-badge {
+      background-color: #f85a8d;
+      color: white;
+      font-size: 12px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 8px;
+    }
+
+    .price {
+      font-weight: 600;
+    }
+
+    .original-price {
+      font-size: 12px;
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .select-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .box-content {
+      display: none;
+    }
+
+    .box.expanded .box-content {
+      display: block;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .free-delivery {
+      color: #f85a8d;
+      font-size: 14px;
+    }
+
+    .total {
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #f85a8d;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .powered {
+      font-size: 12px;
+      color: #999;
+      margin-top: 10px;
+    }
